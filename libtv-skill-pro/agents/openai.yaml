@@ -1,0 +1,6 @@
+interface:
+  display_name: "LibTV Pro 高级执行器"
+  short_description: "显式运行 LibTV 批处理、模板、监控、导出和高级工作流"
+  default_prompt: "使用 $libtv-skill-pro 运行 LibTV 的高级或批量工作流。"
+policy:
+  allow_implicit_invocation: false

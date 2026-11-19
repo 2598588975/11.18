@@ -1,0 +1,6 @@
+interface:
+  display_name: "Video-Claw 本地视频系统"
+  short_description: "显式操作本机 Video-Claw 前后端与六阶段视频生产流程"
+  default_prompt: "使用 $video-claw 检查并操作我本机的 Video-Claw 视频生产服务。"
+policy:
+  allow_implicit_invocation: false

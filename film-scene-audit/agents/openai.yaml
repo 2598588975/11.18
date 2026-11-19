@@ -1,0 +1,4 @@
+interface:
+  display_name: "洋子 · 剧本压力测试"
+  short_description: "检查场景因果、策略与观众人物评价变化，给出保留原稿的最小修复建议"
+  default_prompt: "使用 $film-scene-audit 对这段戏做压力测试，先给诊断与最小修复建议，不改正文。"

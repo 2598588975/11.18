@@ -1,0 +1,2174 @@
+{
+  "kind": "local-installed-yangzi-adaptation",
+  "date": "2026-11-11",
+  "core_modules": [
+    "ai-film-router",
+    "film-synopsis",
+    "film-characters",
+    "film-worldbuilding",
+    "film-treatment",
+    "film-screenplay",
+    "film-lira-assets",
+    "film-acting",
+    "film-cinedance",
+    "film-knowledge-bridge"
+  ],
+  "support_modules": [
+    "film-expert-bridge",
+    "film-scene-audit",
+    "film-staging"
+  ],
+  "files": [
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\references\\knowledge-base-template.json",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/references/knowledge-base-template.json",
+      "source_sha256": "b5e4b5bc63aa4df1d4a80e2ede0fe99d370eb06d46217edf0e10bc05d5ede2d2",
+      "installed_sha256": "b5e4b5bc63aa4df1d4a80e2ede0fe99d370eb06d46217edf0e10bc05d5ede2d2",
+      "bytes": 182,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\references\\local-knowledge.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/references/local-knowledge.md",
+      "source_sha256": "0ae0bb699000883863fcb8fa67bfa2484dfeed376c92d6e967794a2062dc8ea8",
+      "installed_sha256": "0ae0bb699000883863fcb8fa67bfa2484dfeed376c92d6e967794a2062dc8ea8",
+      "bytes": 3965,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\references\\project-rules\\AGENTS.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/references/project-rules/AGENTS.md",
+      "source_sha256": "ee98965ebbb9b884ec5685bbc9d53ea848938490f03e8bb750964f0515cc2d55",
+      "installed_sha256": "ee98965ebbb9b884ec5685bbc9d53ea848938490f03e8bb750964f0515cc2d55",
+      "bytes": 9219,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\references\\project-rules\\artifact-registry.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/references/project-rules/artifact-registry.md",
+      "source_sha256": "58ed170eb668b644ddb235cd2c6636802f43f8aa920a980d5afafc07ca5d4c80",
+      "installed_sha256": "58ed170eb668b644ddb235cd2c6636802f43f8aa920a980d5afafc07ca5d4c80",
+      "bytes": 4664,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\references\\project-rules\\artifact-state.json",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/references/project-rules/artifact-state.json",
+      "source_sha256": "93a6e2b0e61535f6740408470ec41bb5e9d3bdceb0dadf9d5a974b6021398fa3",
+      "installed_sha256": "93a6e2b0e61535f6740408470ec41bb5e9d3bdceb0dadf9d5a974b6021398fa3",
+      "bytes": 66,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\references\\project-rules\\project-status.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/references/project-rules/project-status.md",
+      "source_sha256": "8397076029a067bd37cba20b47b262f6d7015de39095f8b72e63a4dfb412f5cb",
+      "installed_sha256": "8397076029a067bd37cba20b47b262f6d7015de39095f8b72e63a4dfb412f5cb",
+      "bytes": 3646,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\references\\project-rules\\reference-application-template.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/references/project-rules/reference-application-template.md",
+      "source_sha256": "5355e3f43ed53d1763381e26ffedc3068764d033b0a0566aa539c961e11b790b",
+      "installed_sha256": "5355e3f43ed53d1763381e26ffedc3068764d033b0a0566aa539c961e11b790b",
+      "bytes": 1273,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\references\\project-rules\\reference-memory.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/references/project-rules/reference-memory.md",
+      "source_sha256": "552aea995e51bbe2fced735be38c902aeb218b00ba8d53014a8750e748458155",
+      "installed_sha256": "552aea995e51bbe2fced735be38c902aeb218b00ba8d53014a8750e748458155",
+      "bytes": 4475,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\references\\project-rules\\routing.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/references/project-rules/routing.md",
+      "source_sha256": "46ca7a9ef82d18e8c9934cd806b173bf3aa36d903ce84c3ed52496afb6105513",
+      "installed_sha256": "46ca7a9ef82d18e8c9934cd806b173bf3aa36d903ce84c3ed52496afb6105513",
+      "bytes": 5721,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\references\\project-rules\\scene-registry-template.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/references/project-rules/scene-registry-template.md",
+      "source_sha256": "b31dec4b8b6cc756d0858cf27a0e00d9efa0286fd970e0b166b46561213aeb9b",
+      "installed_sha256": "b31dec4b8b6cc756d0858cf27a0e00d9efa0286fd970e0b166b46561213aeb9b",
+      "bytes": 2761,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\references\\project-rules\\session-checkpoint.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/references/project-rules/session-checkpoint.md",
+      "source_sha256": "43f7ace0837c830c878e485fc242a3b7ccc249abf61f9b44633210c451eba7d6",
+      "installed_sha256": "43f7ace0837c830c878e485fc242a3b7ccc249abf61f9b44633210c451eba7d6",
+      "bytes": 756,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\references\\screenplay-intake.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/references/screenplay-intake.md",
+      "source_sha256": "c46a50ba3042f05e24bbd81704939fa510c382e48153b8e8dbd44039408ef4e2",
+      "installed_sha256": "c46a50ba3042f05e24bbd81704939fa510c382e48153b8e8dbd44039408ef4e2",
+      "bytes": 3839,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\references\\yangzi-source-map.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/references/yangzi-source-map.md",
+      "source_sha256": "3dc3197704935b54817dffbf6ccadbd6a35690c84e07e7c0297daadaede39fb9",
+      "installed_sha256": "3dc3197704935b54817dffbf6ccadbd6a35690c84e07e7c0297daadaede39fb9",
+      "bytes": 2040,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\scripts\\artifact_guard.py",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/scripts/artifact_guard.py",
+      "source_sha256": "8ccfe4b04053d57835ea08f53165eb1f49a9486a5666132141cd7e5744b40c5f",
+      "installed_sha256": "8ccfe4b04053d57835ea08f53165eb1f49a9486a5666132141cd7e5744b40c5f",
+      "bytes": 14427,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\scripts\\query_local_knowledge.ps1",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/scripts/query_local_knowledge.ps1",
+      "source_sha256": "83994a25b891791890c19041c2243b31214205d6f783e721ea9b2c3457d3840f",
+      "installed_sha256": "83994a25b891791890c19041c2243b31214205d6f783e721ea9b2c3457d3840f",
+      "bytes": 434,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\scripts\\query_local_knowledge.py",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/scripts/query_local_knowledge.py",
+      "source_sha256": "27685570bb64304cf8d1a6f133116c7454ca915643083856ba70634064183163",
+      "installed_sha256": "27685570bb64304cf8d1a6f133116c7454ca915643083856ba70634064183163",
+      "bytes": 4437,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\scripts\\升级当前电影工程规则.ps1",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/scripts/升级当前电影工程规则.ps1",
+      "source_sha256": "d521c35b071660a1acce4b9e5c064c6be35d61e9501832f4dc3ef925304bc5c2",
+      "installed_sha256": "d521c35b071660a1acce4b9e5c064c6be35d61e9501832f4dc3ef925304bc5c2",
+      "bytes": 8836,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "ai-film-router",
+      "source": "C:\\Users\\codex\\.codex\\skills\\ai-film-router\\SKILL.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/ai-film-router/ENTRYPOINT.md",
+      "source_sha256": "ea11e9036730dd0793dcf2dd0cfa85d7f7af0cc8c737581be2ac6273ef231498",
+      "installed_sha256": "ea11e9036730dd0793dcf2dd0cfa85d7f7af0cc8c737581be2ac6273ef231498",
+      "bytes": 26438,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-synopsis",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-synopsis\\references\\source.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-synopsis/references/source.md",
+      "source_sha256": "998475f993b0ee679867127fdf079f71d6f45d7bfa01577176ed32bf4ec4b6b1",
+      "installed_sha256": "998475f993b0ee679867127fdf079f71d6f45d7bfa01577176ed32bf4ec4b6b1",
+      "bytes": 7438,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-synopsis",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-synopsis\\SKILL.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-synopsis/ENTRYPOINT.md",
+      "source_sha256": "d80c303fbcf27309078aacfd9c9067223e5053bb885aeba1d00441e7fa6f0071",
+      "installed_sha256": "d80c303fbcf27309078aacfd9c9067223e5053bb885aeba1d00441e7fa6f0071",
+      "bytes": 1658,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-characters",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-characters\\references\\source.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-characters/references/source.md",
+      "source_sha256": "23070f583d56e19b9c7d744dc7737186888dda4d94d796d3f123b777ac8b9fd4",
+      "installed_sha256": "23070f583d56e19b9c7d744dc7737186888dda4d94d796d3f123b777ac8b9fd4",
+      "bytes": 6170,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-characters",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-characters\\SKILL.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-characters/ENTRYPOINT.md",
+      "source_sha256": "3502e75afe189b16b36ada989a38138358695ea9b58a6e54ec6572bc1323099e",
+      "installed_sha256": "3502e75afe189b16b36ada989a38138358695ea9b58a6e54ec6572bc1323099e",
+      "bytes": 1509,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-worldbuilding",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-worldbuilding\\references\\source.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-worldbuilding/references/source.md",
+      "source_sha256": "f3cc843422bd8a169e68be95a527ee2bc5e5f41fe42a142922ef8d96fd5d2bb4",
+      "installed_sha256": "f3cc843422bd8a169e68be95a527ee2bc5e5f41fe42a142922ef8d96fd5d2bb4",
+      "bytes": 4407,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-worldbuilding",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-worldbuilding\\SKILL.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-worldbuilding/ENTRYPOINT.md",
+      "source_sha256": "59f24faed98c232f8ee34a2bc043170b684d856579239c2370e1cb473e3f0c43",
+      "installed_sha256": "59f24faed98c232f8ee34a2bc043170b684d856579239c2370e1cb473e3f0c43",
+      "bytes": 1567,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-treatment",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-treatment\\references\\source.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-treatment/references/source.md",
+      "source_sha256": "ea1825bd479a608b2316f401314458bb7831f5a8c2f4318f14f0fc4cdac253f4",
+      "installed_sha256": "ea1825bd479a608b2316f401314458bb7831f5a8c2f4318f14f0fc4cdac253f4",
+      "bytes": 7725,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-treatment",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-treatment\\SKILL.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-treatment/ENTRYPOINT.md",
+      "source_sha256": "6902e1e907c14f80990c44309493f0ad08970edce73bf274f975aa26d0365ee6",
+      "installed_sha256": "14ae9d07c264d2a9f8dec42b121a3600989c6f5a71f08e5327d3deca1d3fbf47",
+      "bytes": 2030,
+      "relative_entrypoint_links_rewritten": 1
+    },
+    {
+      "module": "film-screenplay",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-screenplay\\references\\source.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-screenplay/references/source.md",
+      "source_sha256": "66e46dc275aaa163ed6b37d3fc450a587b28a544e329673d0fe95b6b18c58ea1",
+      "installed_sha256": "66e46dc275aaa163ed6b37d3fc450a587b28a544e329673d0fe95b6b18c58ea1",
+      "bytes": 13417,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-screenplay",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-screenplay\\SKILL.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-screenplay/ENTRYPOINT.md",
+      "source_sha256": "63a9231ac2e25615a7bf3d03fc8877dc4d89cbf08569503ff2f830e213421fc6",
+      "installed_sha256": "06e47c0482cffe83d2c30d419d467f342cf5652d49f4d3010da1f44b1ac87b0f",
+      "bytes": 5761,
+      "relative_entrypoint_links_rewritten": 1
+    },
+    {
+      "module": "film-lira-assets",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-lira-assets\\references\\asset-change-control.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-lira-assets/references/asset-change-control.md",
+      "source_sha256": "b0012dee404ae87b8fd930d01a1d2a6e0e8d813ed59b68abe67740ab846aefdc",
+      "installed_sha256": "b0012dee404ae87b8fd930d01a1d2a6e0e8d813ed59b68abe67740ab846aefdc",
+      "bytes": 1612,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-lira-assets",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-lira-assets\\references\\source.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-lira-assets/references/source.md",
+      "source_sha256": "dae0e50abdb500c9646befc6f90c5277d2789c3a445c6106ed199e523ada84bb",
+      "installed_sha256": "dae0e50abdb500c9646befc6f90c5277d2789c3a445c6106ed199e523ada84bb",
+      "bytes": 22148,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-lira-assets",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-lira-assets\\SKILL.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-lira-assets/ENTRYPOINT.md",
+      "source_sha256": "c18cce8c5e5c93720824945b81e21ebdb15a33502c8245864b73a373a3208bc4",
+      "installed_sha256": "00d4bc0bed7c88c27963e620130668ecfc8c6779cbcba2e2c0ea2d68388967ee",
+      "bytes": 3508,
+      "relative_entrypoint_links_rewritten": 1
+    },
+    {
+      "module": "film-acting",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-acting\\references\\source.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-acting/references/source.md",
+      "source_sha256": "a73161c9032cc1f60e95a243d18782226db18394339f09f76d19fd0424f46c6e",
+      "installed_sha256": "a73161c9032cc1f60e95a243d18782226db18394339f09f76d19fd0424f46c6e",
+      "bytes": 29141,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-acting",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-acting\\SKILL.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-acting/ENTRYPOINT.md",
+      "source_sha256": "2da0f2215ebbbe652b735e1edb3e6dccd1eda04542b621d69199b678f5499f6c",
+      "installed_sha256": "2da0f2215ebbbe652b735e1edb3e6dccd1eda04542b621d69199b678f5499f6c",
+      "bytes": 2062,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-cinedance",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-cinedance\\references\\continuity-compiler.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-cinedance/references/continuity-compiler.md",
+      "source_sha256": "aec40a6ab6ce12839f6935562500512b2cef9ba83e52b3779980db7bb83a1f33",
+      "installed_sha256": "4fb015fa1e3a7b6d1073c7b691d8837264099bd0b266ff25e985884faceaa0bf",
+      "bytes": 6243,
+      "relative_entrypoint_links_rewritten": 1
+    },
+    {
+      "module": "film-cinedance",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-cinedance\\references\\h3-prompt-format.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-cinedance/references/h3-prompt-format.md",
+      "source_sha256": "f8170637b5cfd2d5e77557102a9c677162f20a576ee272975d41442c26a01699",
+      "installed_sha256": "f8170637b5cfd2d5e77557102a9c677162f20a576ee272975d41442c26a01699",
+      "bytes": 4592,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-cinedance",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-cinedance\\references\\seedance-25-prompt-format.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-cinedance/references/seedance-25-prompt-format.md",
+      "source_sha256": "3da27599d8fe3af2c398d725cb0c4c6e1f30fd256148a1611dc931ff1afef169",
+      "installed_sha256": "ebe3e536b62706bf30b725959315777c4a53a83d6dc69253f0b078906df07887",
+      "bytes": 6159,
+      "relative_entrypoint_links_rewritten": 1
+    },
+    {
+      "module": "film-cinedance",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-cinedance\\references\\shot-planning.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-cinedance/references/shot-planning.md",
+      "source_sha256": "2621179d20caa728dafc09ad1682107e608719dd915cd351738983a6153a4613",
+      "installed_sha256": "2621179d20caa728dafc09ad1682107e608719dd915cd351738983a6153a4613",
+      "bytes": 5594,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-cinedance",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-cinedance\\references\\source.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-cinedance/references/source.md",
+      "source_sha256": "065b948878630d53b66417138dac8ad9b6931aa9c14f08182af919224deb06e6",
+      "installed_sha256": "065b948878630d53b66417138dac8ad9b6931aa9c14f08182af919224deb06e6",
+      "bytes": 38506,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-cinedance",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-cinedance\\references\\visual-continuity-audit.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-cinedance/references/visual-continuity-audit.md",
+      "source_sha256": "20f6e8979cf596ccfa7083374bc7df3eec43c0af53d947a08a14f04a1d5d29cc",
+      "installed_sha256": "20f6e8979cf596ccfa7083374bc7df3eec43c0af53d947a08a14f04a1d5d29cc",
+      "bytes": 2577,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-cinedance",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-cinedance\\SKILL.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-cinedance/ENTRYPOINT.md",
+      "source_sha256": "f9103b55efdb14410f1dd6483ae28149ffaf721c7a6e302e9bf3057e9aa6d00d",
+      "installed_sha256": "5ba1f05c3f8e78fc19ba3e024010eef83ef771c8926f041d22f241d5545106cb",
+      "bytes": 20293,
+      "relative_entrypoint_links_rewritten": 2
+    },
+    {
+      "module": "film-knowledge-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-knowledge-bridge\\references\\inbox-workflow.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-knowledge-bridge/references/inbox-workflow.md",
+      "source_sha256": "6ac6e91b35e30ff592f8de17ecb152268a1f2fe18fdcf1f70565279ebaf336c9",
+      "installed_sha256": "6ac6e91b35e30ff592f8de17ecb152268a1f2fe18fdcf1f70565279ebaf336c9",
+      "bytes": 3678,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-knowledge-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-knowledge-bridge\\references\\knowledge-base-template.json",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-knowledge-bridge/references/knowledge-base-template.json",
+      "source_sha256": "74a2f19eaa7af6024f16f37e12607e420ab2d23c7580dfeaac8ab724d201cb4a",
+      "installed_sha256": "74a2f19eaa7af6024f16f37e12607e420ab2d23c7580dfeaac8ab724d201cb4a",
+      "bytes": 286,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-knowledge-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-knowledge-bridge\\references\\profile-example.json",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-knowledge-bridge/references/profile-example.json",
+      "source_sha256": "5e7fd79c886ddd8b7d30ababfb035cc1539896367a937d36727498288f368190",
+      "installed_sha256": "5e7fd79c886ddd8b7d30ababfb035cc1539896367a937d36727498288f368190",
+      "bytes": 1010,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-knowledge-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-knowledge-bridge\\scripts\\configure_knowledge_base.command",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-knowledge-bridge/scripts/configure_knowledge_base.command",
+      "source_sha256": "2151d2c907e0dae9f50263d3b124a2987967661d2b1bfb6d5017630eb91e5e7b",
+      "installed_sha256": "2151d2c907e0dae9f50263d3b124a2987967661d2b1bfb6d5017630eb91e5e7b",
+      "bytes": 130,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-knowledge-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-knowledge-bridge\\scripts\\configure_knowledge_base.ps1",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-knowledge-bridge/scripts/configure_knowledge_base.ps1",
+      "source_sha256": "e332e742243acdcf0c4ceb5c8ef99862a9ed7be7d663dfcd540d429f425d11dc",
+      "installed_sha256": "e332e742243acdcf0c4ceb5c8ef99862a9ed7be7d663dfcd540d429f425d11dc",
+      "bytes": 538,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-knowledge-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-knowledge-bridge\\scripts\\configure_knowledge_base.py",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-knowledge-bridge/scripts/configure_knowledge_base.py",
+      "source_sha256": "ab70f9bded8fae4b02a27a196ba19c166527d4cb44fb37631d3e415798bd4eb4",
+      "installed_sha256": "ab70f9bded8fae4b02a27a196ba19c166527d4cb44fb37631d3e415798bd4eb4",
+      "bytes": 4327,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-knowledge-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-knowledge-bridge\\scripts\\retrieve_stage_sources.ps1",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-knowledge-bridge/scripts/retrieve_stage_sources.ps1",
+      "source_sha256": "b48e7208b0b9dca7f5d532088f278f873169f0e951145f864ad2067689c335ef",
+      "installed_sha256": "b48e7208b0b9dca7f5d532088f278f873169f0e951145f864ad2067689c335ef",
+      "bytes": 436,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-knowledge-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-knowledge-bridge\\scripts\\retrieve_stage_sources.py",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-knowledge-bridge/scripts/retrieve_stage_sources.py",
+      "source_sha256": "546b538ef97f09470090f5cf1b393df445fb5e59b213a1a559f8b236283ee97e",
+      "installed_sha256": "546b538ef97f09470090f5cf1b393df445fb5e59b213a1a559f8b236283ee97e",
+      "bytes": 18163,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-knowledge-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-knowledge-bridge\\scripts\\update_knowledge_index.command",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-knowledge-bridge/scripts/update_knowledge_index.command",
+      "source_sha256": "aeac53a285b8b19b7a64dc7f33821b559034f63e776848e31e51f70cd7d750bd",
+      "installed_sha256": "aeac53a285b8b19b7a64dc7f33821b559034f63e776848e31e51f70cd7d750bd",
+      "bytes": 132,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-knowledge-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-knowledge-bridge\\scripts\\update_knowledge_index.ps1",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-knowledge-bridge/scripts/update_knowledge_index.ps1",
+      "source_sha256": "9aaaed61daea7902db1ef7c5e845d7ba00208b01df2df65eb580f07ea03cd484",
+      "installed_sha256": "9aaaed61daea7902db1ef7c5e845d7ba00208b01df2df65eb580f07ea03cd484",
+      "bytes": 945,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-knowledge-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-knowledge-bridge\\scripts\\update_knowledge_index.py",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-knowledge-bridge/scripts/update_knowledge_index.py",
+      "source_sha256": "ec58a3f388ad6f2fe87a8a735c2015ecf981487914d212a8d898dc892a8ca67f",
+      "installed_sha256": "ec58a3f388ad6f2fe87a8a735c2015ecf981487914d212a8d898dc892a8ca67f",
+      "bytes": 18658,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-knowledge-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-knowledge-bridge\\SKILL.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-knowledge-bridge/ENTRYPOINT.md",
+      "source_sha256": "1aa5d46990636133046c8659f4053829d39b222695c2d51c5370c7f727d0e39b",
+      "installed_sha256": "1aa5d46990636133046c8659f4053829d39b222695c2d51c5370c7f727d0e39b",
+      "bytes": 15836,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\catalog\\00-镜头术语\\选项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/catalog/00-镜头术语/选项.md",
+      "source_sha256": "617bf4fa806e3fc112f864a2fa8c5c0346c89c02bb445da2c44a51858d421782",
+      "installed_sha256": "617bf4fa806e3fc112f864a2fa8c5c0346c89c02bb445da2c44a51858d421782",
+      "bytes": 1336,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\catalog\\01-概念锚定\\选项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/catalog/01-概念锚定/选项.md",
+      "source_sha256": "0c592ca65837fe3557213d1e25ee8b5dd44ce311952a94e892d1d66c59a515f9",
+      "installed_sha256": "0c592ca65837fe3557213d1e25ee8b5dd44ce311952a94e892d1d66c59a515f9",
+      "bytes": 1043,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\catalog\\02-角色圣经\\选项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/catalog/02-角色圣经/选项.md",
+      "source_sha256": "abe306885c9130acf439f3e3915a66cfa2d097e52f51b1ec8849c109e85d4cde",
+      "installed_sha256": "abe306885c9130acf439f3e3915a66cfa2d097e52f51b1ec8849c109e85d4cde",
+      "bytes": 1155,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\catalog\\03-世界观\\选项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/catalog/03-世界观/选项.md",
+      "source_sha256": "273307b450a8c6699e163ff22d326880d7bd65ae7cef3c2492b4b31463374d90",
+      "installed_sha256": "273307b450a8c6699e163ff22d326880d7bd65ae7cef3c2492b4b31463374d90",
+      "bytes": 1097,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\catalog\\04-分场大纲\\选项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/catalog/04-分场大纲/选项.md",
+      "source_sha256": "f90a3188034814f5f6319ab7986f68a97eacb62c6e792d3e0ccf49cd002ce465",
+      "installed_sha256": "f90a3188034814f5f6319ab7986f68a97eacb62c6e792d3e0ccf49cd002ce465",
+      "bytes": 1247,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\catalog\\05-剧本融合\\选项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/catalog/05-剧本融合/选项.md",
+      "source_sha256": "08e05b71db09482ab5533a6db5a9fbfb9bd115c5e2fe298c7953075af3e14adb",
+      "installed_sha256": "08e05b71db09482ab5533a6db5a9fbfb9bd115c5e2fe298c7953075af3e14adb",
+      "bytes": 1118,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\catalog\\06-图像资产\\选项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/catalog/06-图像资产/选项.md",
+      "source_sha256": "7e2b1669ad10d24658ecf0c1f4b8abd2d0bcfd7bdda180d966968a5629776d53",
+      "installed_sha256": "7e2b1669ad10d24658ecf0c1f4b8abd2d0bcfd7bdda180d966968a5629776d53",
+      "bytes": 1993,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\catalog\\07-表演\\选项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/catalog/07-表演/选项.md",
+      "source_sha256": "e3a62e121c19d6d124a40813034e611bdb6e789c322aaf7b77cd1b7116d7e64e",
+      "installed_sha256": "e3a62e121c19d6d124a40813034e611bdb6e789c322aaf7b77cd1b7116d7e64e",
+      "bytes": 1104,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\catalog\\08-视频提示词\\大招二级选项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/catalog/08-视频提示词/大招二级选项.md",
+      "source_sha256": "02154aeedefb27413a06cfdfc16e7dbb086e52ef7c7ef38bc8e9732ebf5075d5",
+      "installed_sha256": "02154aeedefb27413a06cfdfc16e7dbb086e52ef7c7ef38bc8e9732ebf5075d5",
+      "bytes": 793,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\catalog\\08-视频提示词\\打斗二级选项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/catalog/08-视频提示词/打斗二级选项.md",
+      "source_sha256": "bf6073bfa1c3a275436630aedf44bdbb3408f2c98facd9aa320c37267b0faf00",
+      "installed_sha256": "bf6073bfa1c3a275436630aedf44bdbb3408f2c98facd9aa320c37267b0faf00",
+      "bytes": 2852,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\catalog\\08-视频提示词\\选项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/catalog/08-视频提示词/选项.md",
+      "source_sha256": "d00405b0b736bc6051e49e4858ec2bd1a2a4bdda48e608626d86f59a22a1fe24",
+      "installed_sha256": "d00405b0b736bc6051e49e4858ec2bd1a2a4bdda48e608626d86f59a22a1fe24",
+      "bytes": 4252,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\catalog\\module-registry.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/catalog/module-registry.md",
+      "source_sha256": "00f86cda4b2a9ad403871b34c59e3ce1fc6cf202a07f1935e305a9cf6799ab27",
+      "installed_sha256": "513d30d619eb210e3ed16b1de7906ec977e695b932a2a9f38952209bfed0ea03",
+      "bytes": 5092,
+      "relative_entrypoint_links_rewritten": 2
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\catalog\\stage-menu.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/catalog/stage-menu.md",
+      "source_sha256": "fe0053d9df13b7ff40284801742b3b1f5897bc3f8ee490e2a1302fc56c6cb1e0",
+      "installed_sha256": "fe0053d9df13b7ff40284801742b3b1f5897bc3f8ee490e2a1302fc56c6cb1e0",
+      "bytes": 9716,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\expert-memory-template.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/expert-memory-template.md",
+      "source_sha256": "b58064773bc1b0db70572e9617309615bf10559a793e2257d948b9326eeacb0e",
+      "installed_sha256": "b58064773bc1b0db70572e9617309615bf10559a793e2257d948b9326eeacb0e",
+      "bytes": 1206,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\07-万剑诀雷域箭雨专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/07-万剑诀雷域箭雨专项.md",
+      "source_sha256": "3ecff270978b5ea57d6b9e477207c0c36f1e78c9974b10a1cfcfa5026a355511",
+      "installed_sha256": "3ecff270978b5ea57d6b9e477207c0c36f1e78c9974b10a1cfcfa5026a355511",
+      "bytes": 10074,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\08-单手长剑属性流体剑气专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/08-单手长剑属性流体剑气专项.md",
+      "source_sha256": "b401d862c8881e12ed93c236f929467508d20f2ff22a26a7f3474e922098edbe",
+      "installed_sha256": "b401d862c8881e12ed93c236f929467508d20f2ff22a26a7f3474e922098edbe",
+      "bytes": 12370,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\09-巨型法相擒摔专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/09-巨型法相擒摔专项.md",
+      "source_sha256": "c87b81d1addf1bab4d0cd639f0b76a35ae5456bc688434f872bb5e5111e677c9",
+      "installed_sha256": "c87b81d1addf1bab4d0cd639f0b76a35ae5456bc688434f872bb5e5111e677c9",
+      "bytes": 2921,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\10-投掷法器追杀回收专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/10-投掷法器追杀回收专项.md",
+      "source_sha256": "8ea3ffe771add9ee0f6fcf8ad8cd5ff942311afb29c7ef9a644684117c214d0e",
+      "installed_sha256": "8ea3ffe771add9ee0f6fcf8ad8cd5ff942311afb29c7ef9a644684117c214d0e",
+      "bytes": 2746,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\11-天地开界巨兵器专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/11-天地开界巨兵器专项.md",
+      "source_sha256": "bd1558507ef121044d8574f8d27f36bca872e6cb56404737405063fc1bd4d51a",
+      "installed_sha256": "bd1558507ef121044d8574f8d27f36bca872e6cb56404737405063fc1bd4d51a",
+      "bytes": 3184,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\12-剑伞古刹环境连招专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/12-剑伞古刹环境连招专项.md",
+      "source_sha256": "8abbd540f2aa2efb8fe5697cd1298f8fc46971f840e493505bd8324c869f6b3a",
+      "installed_sha256": "8abbd540f2aa2efb8fe5697cd1298f8fc46971f840e493505bd8324c869f6b3a",
+      "bytes": 10169,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\13-横刀对关公刀河滩连招专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/13-横刀对关公刀河滩连招专项.md",
+      "source_sha256": "24d48bd501d63345149d93110832ddbf1bd15efccb418e921e392cedfe654b9e",
+      "installed_sha256": "24d48bd501d63345149d93110832ddbf1bd15efccb418e921e392cedfe654b9e",
+      "bytes": 7762,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\14-竹林刀剑环境借力连招专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/14-竹林刀剑环境借力连招专项.md",
+      "source_sha256": "f50b293b458d6f439a04912e7f442f5ea56866605f3e231526b427d27d443b95",
+      "installed_sha256": "f50b293b458d6f439a04912e7f442f5ea56866605f3e231526b427d27d443b95",
+      "bytes": 4782,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\15-骨伞近身拆招与巨掌镇压专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/15-骨伞近身拆招与巨掌镇压专项.md",
+      "source_sha256": "40675dba57a5fc7dbdbcf192a99c5ff641649774c646e05ecc40baa5cd9edf1d",
+      "installed_sha256": "40675dba57a5fc7dbdbcf192a99c5ff641649774c646e05ecc40baa5cd9edf1d",
+      "bytes": 3860,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\16-街舞式连续突进腿法专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/16-街舞式连续突进腿法专项.md",
+      "source_sha256": "d9777ab463e68a5f6753bade21041d95d4134edca550816e76d91711703920b6",
+      "installed_sha256": "d9777ab463e68a5f6753bade21041d95d4134edca550816e76d91711703920b6",
+      "bytes": 1463,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\17-控制僵直型擒杀腿法专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/17-控制僵直型擒杀腿法专项.md",
+      "source_sha256": "50b564448ad7ea5988173eb40affd19cfbb5b00d207b44ec26f03a720fd0d760",
+      "installed_sha256": "50b564448ad7ea5988173eb40affd19cfbb5b00d207b44ec26f03a720fd0d760",
+      "bytes": 1281,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\18-符术长棍压制专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/18-符术长棍压制专项.md",
+      "source_sha256": "6325372bb9abdc3202ec939f968220608650e0b4171d0c46ee9521df30421f9a",
+      "installed_sha256": "6325372bb9abdc3202ec939f968220608650e0b4171d0c46ee9521df30421f9a",
+      "bytes": 991,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\19-浮空气功远程清场专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/19-浮空气功远程清场专项.md",
+      "source_sha256": "95e775d47a4e4497aa6c8f5b2814a2d7c17287c44a0a755994f47b4d8c137f38",
+      "installed_sha256": "95e775d47a4e4497aa6c8f5b2814a2d7c17287c44a0a755994f47b4d8c137f38",
+      "bytes": 976,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\20-陌刀七式刀腿连招专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/20-陌刀七式刀腿连招专项.md",
+      "source_sha256": "4da30a2cb34f4a6b3038355f7b6cd0cc961d25ba5cc4950d8b1bef94bd49cb92",
+      "installed_sha256": "4da30a2cb34f4a6b3038355f7b6cd0cc961d25ba5cc4950d8b1bef94bd49cb92",
+      "bytes": 1306,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\21-破穹长枪连击专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/21-破穹长枪连击专项.md",
+      "source_sha256": "dc92c4f52ff705734997a422029113f825fda2d44b8415030a634f488e1b5d4f",
+      "installed_sha256": "dc92c4f52ff705734997a422029113f825fda2d44b8415030a634f488e1b5d4f",
+      "bytes": 1630,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\22-双唐刀高频绞杀专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/22-双唐刀高频绞杀专项.md",
+      "source_sha256": "f9a0dab5f340d9e2b51ae9fee63c1c582b4041fc068354604dfa25745a8ea6ce",
+      "installed_sha256": "f9a0dab5f340d9e2b51ae9fee63c1c582b4041fc068354604dfa25745a8ea6ce",
+      "bytes": 970,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\23-剑腿双修冰系连招专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/23-剑腿双修冰系连招专项.md",
+      "source_sha256": "ae540cf6b0cf31b595f423e88c1b94cf2311be76d8a96988fc5c75bccb2c643e",
+      "installed_sha256": "ae540cf6b0cf31b595f423e88c1b94cf2311be76d8a96988fc5c75bccb2c643e",
+      "bytes": 1007,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\24-爪刺对臂铠破甲专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/24-爪刺对臂铠破甲专项.md",
+      "source_sha256": "2a01241b68aad0d173d1b93d0f2a0ad34eaf88b030199e261f1d2eb6bbb72ca5",
+      "installed_sha256": "2a01241b68aad0d173d1b93d0f2a0ad34eaf88b030199e261f1d2eb6bbb72ca5",
+      "bytes": 1122,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\25-折扇开合切线与近身反制专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/25-折扇开合切线与近身反制专项.md",
+      "source_sha256": "5512c527f2188143639a046c5e3b125111dfab1f5fd1b6d778c62ec16fb72f98",
+      "installed_sha256": "5512c527f2188143639a046c5e3b125111dfab1f5fd1b6d778c62ec16fb72f98",
+      "bytes": 6065,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\26-双链锚定与双属性协同专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/26-双链锚定与双属性协同专项.md",
+      "source_sha256": "a30c1216ed2176f091ccecfa0b0089338c6ece4a9f6b888084401a26b4d3a1a5",
+      "installed_sha256": "a30c1216ed2176f091ccecfa0b0089338c6ece4a9f6b888084401a26b4d3a1a5",
+      "bytes": 7171,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\27-居合拔刀与重兵器抢线专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/27-居合拔刀与重兵器抢线专项.md",
+      "source_sha256": "fa57c5e9f3f652916553caf417cac7007cdd341a06bb647c01c3f6aab35333df",
+      "installed_sha256": "fa57c5e9f3f652916553caf417cac7007cdd341a06bb647c01c3f6aab35333df",
+      "bytes": 2407,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\28-游击射手对重型追击者专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/28-游击射手对重型追击者专项.md",
+      "source_sha256": "ff5a0875f421df97e1322e44d4defd4e213e8df5c0086eb34e6ca433cd143475",
+      "installed_sha256": "ff5a0875f421df97e1322e44d4defd4e213e8df5c0086eb34e6ca433cd143475",
+      "bytes": 2476,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\29-剑盾对双持重兵器破架专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/29-剑盾对双持重兵器破架专项.md",
+      "source_sha256": "d8c4726fccd48062a35a2a4ee592b4901830ab03fc1fbfa1e9c8cc736b20354e",
+      "installed_sha256": "d8c4726fccd48062a35a2a4ee592b4901830ab03fc1fbfa1e9c8cc736b20354e",
+      "bytes": 2589,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\30-柔性束缚与触手反制专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/30-柔性束缚与触手反制专项.md",
+      "source_sha256": "415bc71129a9fa41b6e39d820fb7d2732511db5b641f6dd1dbb38457d128e997",
+      "installed_sha256": "415bc71129a9fa41b6e39d820fb7d2732511db5b641f6dd1dbb38457d128e997",
+      "bytes": 2831,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\31-失重环境持械反冲换位专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/31-失重环境持械反冲换位专项.md",
+      "source_sha256": "89a91563449385891585ff6e4ab5e521a82fc21cb16a7a59b521d590246580c5",
+      "installed_sha256": "89a91563449385891585ff6e4ab5e521a82fc21cb16a7a59b521d590246580c5",
+      "bytes": 2724,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\32-机甲推进近战与模块破坏专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/32-机甲推进近战与模块破坏专项.md",
+      "source_sha256": "c5d80a3ccfae4312f6ae9008cc43389bed8b405dee9ece81315a104c004dd464",
+      "installed_sha256": "c5d80a3ccfae4312f6ae9008cc43389bed8b405dee9ece81315a104c004dd464",
+      "bytes": 3240,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\Web工作台三模式工作流对接.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/Web工作台三模式工作流对接.md",
+      "source_sha256": "664be3f0e9eb0e66b05b23821f1e61e5ed754637b97116e0499fd4b6068ad47e",
+      "installed_sha256": "664be3f0e9eb0e66b05b23821f1e61e5ed754637b97116e0499fd4b6068ad47e",
+      "bytes": 5136,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\七角色武学绑定V2.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/七角色武学绑定V2.md",
+      "source_sha256": "39f2446bd7d21bfe4edff99734307c88343a536d121cc5daca419540caa1d821",
+      "installed_sha256": "39f2446bd7d21bfe4edff99734307c88343a536d121cc5daca419540caa1d821",
+      "bytes": 19945,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\兵器技法资料库_仙侠枪法专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/兵器技法资料库_仙侠枪法专项.md",
+      "source_sha256": "9d9300811930ee22a80aaddf536fa4df694ea9955c7ecd9d7589168c6ea31250",
+      "installed_sha256": "9d9300811930ee22a80aaddf536fa4df694ea9955c7ecd9d7589168c6ea31250",
+      "bytes": 4826,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\兵器技法资料库_修仙高级剑招专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/兵器技法资料库_修仙高级剑招专项.md",
+      "source_sha256": "2d5649f74c5b1621dca03b3d8ea16a2d1b0e4142486746d27709e06de14727af",
+      "installed_sha256": "2d5649f74c5b1621dca03b3d8ea16a2d1b0e4142486746d27709e06de14727af",
+      "bytes": 18500,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\兵器技法资料库_军人战技专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/兵器技法资料库_军人战技专项.md",
+      "source_sha256": "f8d877f69535a033b5e55daaa8b7a8bcdc5055060f1cca02371dfbc1617ecf50",
+      "installed_sha256": "f8d877f69535a033b5e55daaa8b7a8bcdc5055060f1cca02371dfbc1617ecf50",
+      "bytes": 6031,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\兵器技法资料库_剑法专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/兵器技法资料库_剑法专项.md",
+      "source_sha256": "323745a8d24f14c47230ba853081f420b095c82f4537cc2e16408af631ad9fd3",
+      "installed_sha256": "323745a8d24f14c47230ba853081f420b095c82f4537cc2e16408af631ad9fd3",
+      "bytes": 24436,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\兵器技法资料库_枪法专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/兵器技法资料库_枪法专项.md",
+      "source_sha256": "cee048b7bbe697886fc1d8d039b64639141f7cabae804f502e58627c24aa25c8",
+      "installed_sha256": "cee048b7bbe697886fc1d8d039b64639141f7cabae804f502e58627c24aa25c8",
+      "bytes": 17230,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\兵器技法资料库_梦想一心太刀专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/兵器技法资料库_梦想一心太刀专项.md",
+      "source_sha256": "5ca0a4f27aa5d845f9e9dd16d6764d1d40d53087dbcf626936ad9c9566f93d32",
+      "installed_sha256": "5ca0a4f27aa5d845f9e9dd16d6764d1d40d53087dbcf626936ad9c9566f93d32",
+      "bytes": 13476,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\兵器技法资料库_武侠枪法专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/兵器技法资料库_武侠枪法专项.md",
+      "source_sha256": "f0d0ff5c231bd167acb86137ee2bfc9630df02e892fe0e53abffe763e08759b6",
+      "installed_sha256": "f0d0ff5c231bd167acb86137ee2bfc9630df02e892fe0e53abffe763e08759b6",
+      "bytes": 4687,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\兵器技法资料库_绯雪樱灼流单太刀专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/兵器技法资料库_绯雪樱灼流单太刀专项.md",
+      "source_sha256": "0a53d7674caa703738beb0ad8df9df6614fb139fa0ed70dcb02ff87893d76ede",
+      "installed_sha256": "0a53d7674caa703738beb0ad8df9df6614fb139fa0ed70dcb02ff87893d76ede",
+      "bytes": 15048,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\兵器技法资料库_长柄镰刀专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/兵器技法资料库_长柄镰刀专项.md",
+      "source_sha256": "6a03ee792af7d07ac08c8dec6d2cc654e68abb4f222f09d017f541a7fc4ee803",
+      "installed_sha256": "6a03ee792af7d07ac08c8dec6d2cc654e68abb4f222f09d017f541a7fc4ee803",
+      "bytes": 13267,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\兵器技法资料库_高级轻功专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/兵器技法资料库_高级轻功专项.md",
+      "source_sha256": "e63c76f68e2a27cf1c9fa76dbfdb770c7d873e78a646e173183131104ee0bc60",
+      "installed_sha256": "e63c76f68e2a27cf1c9fa76dbfdb770c7d873e78a646e173183131104ee0bc60",
+      "bytes": 18533,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\徒手技法资料库_36路腿法专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/徒手技法资料库_36路腿法专项.md",
+      "source_sha256": "aa142acd491f55cd61906e8cd63f35574d4846e016127d51e86b8697a0656e36",
+      "installed_sha256": "aa142acd491f55cd61906e8cd63f35574d4846e016127d51e86b8697a0656e36",
+      "bytes": 16460,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\徒手技法资料库_三十六路擒拿专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/徒手技法资料库_三十六路擒拿专项.md",
+      "source_sha256": "a3a0fd8c5527af7aa7daa3ce08cae6a5da1cd01f5d6b9dccb1c597876c77a0fe",
+      "installed_sha256": "a3a0fd8c5527af7aa7daa3ce08cae6a5da1cd01f5d6b9dccb1c597876c77a0fe",
+      "bytes": 22001,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\徒手技法资料库_八卦掌后天六十四掌专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/徒手技法资料库_八卦掌后天六十四掌专项.md",
+      "source_sha256": "981f95f88eec39aea1e7f7103963b4408fdec63f34580e4e16abab0a2036fc1d",
+      "installed_sha256": "981f95f88eec39aea1e7f7103963b4408fdec63f34580e4e16abab0a2036fc1d",
+      "bytes": 55843,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\徒手技法资料库_咏春拳专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/徒手技法资料库_咏春拳专项.md",
+      "source_sha256": "a6b58bccc436bf12d1de11965033b02db592757ac2e89c1551098c74d0f2212c",
+      "installed_sha256": "a6b58bccc436bf12d1de11965033b02db592757ac2e89c1551098c74d0f2212c",
+      "bytes": 22993,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\徒手技法资料库_太极拳专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/徒手技法资料库_太极拳专项.md",
+      "source_sha256": "8a0cc0d907f5c684a5d200ea76ca8d1c93caa3e393d73a1903058af52d383bbb",
+      "installed_sha256": "8a0cc0d907f5c684a5d200ea76ca8d1c93caa3e393d73a1903058af52d383bbb",
+      "bytes": 31770,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\徒手技法资料库_巴西战舞专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/徒手技法资料库_巴西战舞专项.md",
+      "source_sha256": "3f7556c8991b390c44ad76df100de01cad9ae90062943732dbcb74813e2dc287",
+      "installed_sha256": "3f7556c8991b390c44ad76df100de01cad9ae90062943732dbcb74813e2dc287",
+      "bytes": 14408,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\徒手技法资料库_形意拳专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/徒手技法资料库_形意拳专项.md",
+      "source_sha256": "c9c115d30af8a7ac49e7d107dda766def7fe4cc21bc60bb4b92ee68e79c46ff1",
+      "installed_sha256": "c9c115d30af8a7ac49e7d107dda766def7fe4cc21bc60bb4b92ee68e79c46ff1",
+      "bytes": 14576,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\徒手技法资料库_泰拳专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/徒手技法资料库_泰拳专项.md",
+      "source_sha256": "6c740e95f5d3bfa8f466809e104f803eb471f4cb66fb66a890681eaf6e1862d4",
+      "installed_sha256": "6c740e95f5d3bfa8f466809e104f803eb471f4cb66fb66a890681eaf6e1862d4",
+      "bytes": 21886,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\徒手技法资料库_洪拳十二桥手专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/徒手技法资料库_洪拳十二桥手专项.md",
+      "source_sha256": "c1e77d38c5bf19fb66ec07ffac47e10f20c689188ca2af1216e0662d596413af",
+      "installed_sha256": "c1e77d38c5bf19fb66ec07ffac47e10f20c689188ca2af1216e0662d596413af",
+      "bytes": 19628,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\徒手技法资料库_爪法专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/徒手技法资料库_爪法专项.md",
+      "source_sha256": "6405f71d2e0e615163d00b239d56e68dd88f8b37dc34c2d90af748477f8cd827",
+      "installed_sha256": "6405f71d2e0e615163d00b239d56e68dd88f8b37dc34c2d90af748477f8cd827",
+      "bytes": 26152,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\徒手技法资料库_睡梦罗汉拳专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/徒手技法资料库_睡梦罗汉拳专项.md",
+      "source_sha256": "ebc2ea65371cee07f0f2f817ecb263b94c32e7a2eee38153e3b304936d210291",
+      "installed_sha256": "ebc2ea65371cee07f0f2f817ecb263b94c32e7a2eee38153e3b304936d210291",
+      "bytes": 31607,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\徒手技法资料库_醉拳醉八仙专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/徒手技法资料库_醉拳醉八仙专项.md",
+      "source_sha256": "5b097b77af5171afaadf647066c72e45f013fdcc52afe520fa3c91420be537f3",
+      "installed_sha256": "5b097b77af5171afaadf647066c72e45f013fdcc52afe520fa3c91420be537f3",
+      "bytes": 61491,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\战场场景库\\17-仙侠废墟古战场远程追逐.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/战场场景库/17-仙侠废墟古战场远程追逐.md",
+      "source_sha256": "07afda28b493d68c321db4432b9092c727c219e75692cbbd65239b07602e3d52",
+      "installed_sha256": "07afda28b493d68c321db4432b9092c727c219e75692cbbd65239b07602e3d52",
+      "bytes": 4367,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\战场场景库\\18-仙侠山谷废墟三层军阵清场战场.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/战场场景库/18-仙侠山谷废墟三层军阵清场战场.md",
+      "source_sha256": "9a7fffe984a3b7b0988ad02fc621ef7bb98ea1525fcc49af23f9d7542e6427de",
+      "installed_sha256": "9a7fffe984a3b7b0988ad02fc621ef7bb98ea1525fcc49af23f9d7542e6427de",
+      "bytes": 4573,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\战场场景库\\19-仙侠雪山云海天地开界战场.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/战场场景库/19-仙侠雪山云海天地开界战场.md",
+      "source_sha256": "2cc9808ca3b6c9fd9fa6c308cd1c02fd75747391c3e801ccb7eefdf695f4cf02",
+      "installed_sha256": "2cc9808ca3b6c9fd9fa6c308cd1c02fd75747391c3e801ccb7eefdf695f4cf02",
+      "bytes": 2611,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\战场场景库\\20-暴雨悬崖古刹多层追击场景.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/战场场景库/20-暴雨悬崖古刹多层追击场景.md",
+      "source_sha256": "15cce981729f93bffc39a841a5328b7e0d152743ff4a5e61c374e0d92a46989d",
+      "installed_sha256": "15cce981729f93bffc39a841a5328b7e0d152743ff4a5e61c374e0d92a46989d",
+      "bytes": 6143,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\战场场景库\\21-黄昏细雨荒草河滩泥水战场.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/战场场景库/21-黄昏细雨荒草河滩泥水战场.md",
+      "source_sha256": "dbbc55de9d176bf001326cd814dd5c6bddff51bc5ea21371c4bdc534158c960d",
+      "installed_sha256": "dbbc55de9d176bf001326cd814dd5c6bddff51bc5ea21371c4bdc534158c960d",
+      "bytes": 3547,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\战场场景库\\22-黄昏密竹林多层借力追击场景.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/战场场景库/22-黄昏密竹林多层借力追击场景.md",
+      "source_sha256": "7bd9d36770e1f16186be4122b70670aa2ca99cc6bceaaf45fe3c58eb049597fa",
+      "installed_sha256": "7bd9d36770e1f16186be4122b70670aa2ca99cc6bceaaf45fe3c58eb049597fa",
+      "bytes": 3528,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\战场场景库\\23-雷雨残破祭坛法相镇压场景.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/战场场景库/23-雷雨残破祭坛法相镇压场景.md",
+      "source_sha256": "4138c8379d50ff2ea19758496a54f7a93309b124134b37b2ae2ec907c1dd3e36",
+      "installed_sha256": "4138c8379d50ff2ea19758496a54f7a93309b124134b37b2ae2ec907c1dd3e36",
+      "bytes": 2743,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\战场场景库\\24-极暗破败古镇积水夜战场景.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/战场场景库/24-极暗破败古镇积水夜战场景.md",
+      "source_sha256": "a4370af4b50caf4b85f0e9c5bdee6438fc377fe3dbee697b5edcfaff265b944f",
+      "installed_sha256": "a4370af4b50caf4b85f0e9c5bdee6438fc377fe3dbee697b5edcfaff265b944f",
+      "bytes": 1505,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\战场场景库\\25-上古残垣双能量洪流战场.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/战场场景库/25-上古残垣双能量洪流战场.md",
+      "source_sha256": "bf5c6b348f84268dcf80f92118a479e0479aea5ea279623bfbc46bd8237ba1ae",
+      "installed_sha256": "bf5c6b348f84268dcf80f92118a479e0479aea5ea279623bfbc46bd8237ba1ae",
+      "bytes": 1132,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\战场场景库\\26-中元幽域渡灵关场景.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/战场场景库/26-中元幽域渡灵关场景.md",
+      "source_sha256": "4a8ec5b97ebf773c220fadac987e04395126743a08f95c7042bcdee7b88c88a8",
+      "installed_sha256": "4a8ec5b97ebf773c220fadac987e04395126743a08f95c7042bcdee7b88c88a8",
+      "bytes": 1102,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\战场场景库\\27-受限危险空间战斗拓扑.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/战场场景库/27-受限危险空间战斗拓扑.md",
+      "source_sha256": "3bcf3907952993a644606b53bbcb1adfca76139fc20cfd1d1b5618afc71d2d67",
+      "installed_sha256": "3bcf3907952993a644606b53bbcb1adfca76139fc20cfd1d1b5618afc71d2d67",
+      "bytes": 4610,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\打戏生成自检清单.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/打戏生成自检清单.md",
+      "source_sha256": "15a26287fa09d4f8737512f8f32df429316bde79cb16a732b4f41ccac75ac76e",
+      "installed_sha256": "15a26287fa09d4f8737512f8f32df429316bde79cb16a732b4f41ccac75ac76e",
+      "bytes": 2454,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\打戏系统交接包.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/打戏系统交接包.md",
+      "source_sha256": "71130b336c04cfa0a095eba40b28788adc5bf8aad7b0a05e6395590b0d0df4fb",
+      "installed_sha256": "71130b336c04cfa0a095eba40b28788adc5bf8aad7b0a05e6395590b0d0df4fb",
+      "bytes": 29209,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\打戏系统资料索引.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/打戏系统资料索引.md",
+      "source_sha256": "bee9418e59a8248166c519945b7d47757f1f83c7b214b1ddd41178318120c7e8",
+      "installed_sha256": "bee9418e59a8248166c519945b7d47757f1f83c7b214b1ddd41178318120c7e8",
+      "bytes": 31495,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\技能机制库\\00-技能库索引.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/技能机制库/00-技能库索引.md",
+      "source_sha256": "44a1964b6c5d43cf81330d6913ebf82f360fe66b13539f1b04bf0b5e7bb14cea",
+      "installed_sha256": "44a1964b6c5d43cf81330d6913ebf82f360fe66b13539f1b04bf0b5e7bb14cea",
+      "bytes": 2811,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\技能机制库\\01-环境介质御水控场.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/技能机制库/01-环境介质御水控场.md",
+      "source_sha256": "a2d04a72c4083661c360e0f59716acd13024b0c6943c0a09cfea88fa3735c178",
+      "installed_sha256": "a2d04a72c4083661c360e0f59716acd13024b0c6943c0a09cfea88fa3735c178",
+      "bytes": 1882,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\技能机制库\\02-柔性附属肢体惯性配重.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/技能机制库/02-柔性附属肢体惯性配重.md",
+      "source_sha256": "a613267a3549860f75ad20d5e480f16884c54e53e5af566c0cd604307cdb26f8",
+      "installed_sha256": "a613267a3549860f75ad20d5e480f16884c54e53e5af566c0cd604307cdb26f8",
+      "bytes": 1934,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\技能机制库\\03-实体群指令编队.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/技能机制库/03-实体群指令编队.md",
+      "source_sha256": "94c09d1e7f1d324a48ae5237f81854977e7219b6aef7aabedc14d4163bd37edf",
+      "installed_sha256": "94c09d1e7f1d324a48ae5237f81854977e7219b6aef7aabedc14d4163bd37edf",
+      "bytes": 1877,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\技能机制库\\04-语义符文实体化.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/技能机制库/04-语义符文实体化.md",
+      "source_sha256": "ed2be44d2154e87db0a8f6719117c9844f44c2442916ea855dad7622d3f858dc",
+      "installed_sha256": "ed2be44d2154e87db0a8f6719117c9844f44c2442916ea855dad7622d3f858dc",
+      "bytes": 2027,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\技能机制库\\05-血契媒介裂界门.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/技能机制库/05-血契媒介裂界门.md",
+      "source_sha256": "845708c9b6668c4f6ed670ac20a0ee5eae736e5ad2e07548a7601ad52d48f25f",
+      "installed_sha256": "845708c9b6668c4f6ed670ac20a0ee5eae736e5ad2e07548a7601ad52d48f25f",
+      "bytes": 1962,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\技能机制库\\06-动势蓄能.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/技能机制库/06-动势蓄能.md",
+      "source_sha256": "6d8572a369c9403140c39f6176a541ffd5541cf3ab137d4056ba2109bdc68c31",
+      "installed_sha256": "6d8572a369c9403140c39f6176a541ffd5541cf3ab137d4056ba2109bdc68c31",
+      "bytes": 1866,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\技能机制库\\07-核心化封闭能量壳.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/技能机制库/07-核心化封闭能量壳.md",
+      "source_sha256": "0bf888542d8576ee63c601ff1b06e6e7fb3b38087aa41ec34cf8403d7bebddcb",
+      "installed_sha256": "0bf888542d8576ee63c601ff1b06e6e7fb3b38087aa41ec34cf8403d7bebddcb",
+      "bytes": 1975,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\技能机制库\\08-模块化武器形态切换.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/技能机制库/08-模块化武器形态切换.md",
+      "source_sha256": "9f250bf95d32b90f0cacd0cacebeea4a94fc9c22e8255dc4756582e598817bdf",
+      "installed_sha256": "9f250bf95d32b90f0cacd0cacebeea4a94fc9c22e8255dc4756582e598817bdf",
+      "bytes": 2092,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\技能机制库\\09-无人机封锁阵列.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/技能机制库/09-无人机封锁阵列.md",
+      "source_sha256": "e451b42dcfa84818c9a219ac8062084c607e19a3ce0e066b7f699d3bb643e9b1",
+      "installed_sha256": "e451b42dcfa84818c9a219ac8062084c607e19a3ce0e066b7f699d3bb643e9b1",
+      "bytes": 2003,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\技能机制库\\10-投射节点分层部署.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/技能机制库/10-投射节点分层部署.md",
+      "source_sha256": "08402014f78f16d71387cea91b062c59a748f4275b3e1143916a8cb366ccd530",
+      "installed_sha256": "08402014f78f16d71387cea91b062c59a748f4275b3e1143916a8cb366ccd530",
+      "bytes": 1952,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\精品案例提炼_清兵多风格专项.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/精品案例提炼_清兵多风格专项.md",
+      "source_sha256": "0384253ec7092d281739e33fa61963f388038b64f2d63408bb69d1d60ef19d0e",
+      "installed_sha256": "0384253ec7092d281739e33fa61963f388038b64f2d63408bb69d1d60ef19d0e",
+      "bytes": 11713,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\combat\\精品词库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/combat/精品词库.md",
+      "source_sha256": "98864f2f403d58c7c0859b2cbb00b8cd9d58512a9ba617ec69bc53194b217de5",
+      "installed_sha256": "98864f2f403d58c7c0859b2cbb00b8cd9d58512a9ba617ec69bc53194b217de5",
+      "bytes": 55276,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\image2故事板与一致性库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/image2故事板与一致性库.md",
+      "source_sha256": "9cc53138ab81c6b1d3f4affa9c870f581e289d0e5d57156fe06bab0dd09f5c3b",
+      "installed_sha256": "9cc53138ab81c6b1d3f4affa9c870f581e289d0e5d57156fe06bab0dd09f5c3b",
+      "bytes": 53394,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\image2白模草图画线玩法库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/image2白模草图画线玩法库.md",
+      "source_sha256": "c613f74089b597e10b0e7a421e946418274e9e2fb155b649c78c35be3fceac7f",
+      "installed_sha256": "c613f74089b597e10b0e7a421e946418274e9e2fb155b649c78c35be3fceac7f",
+      "bytes": 40893,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\一致性硬控三锁库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/一致性硬控三锁库.md",
+      "source_sha256": "37f0c1ba76fb6b978138aa06487de2fc8967703421cfa7561dc19418b54bd44b",
+      "installed_sha256": "37f0c1ba76fb6b978138aa06487de2fc8967703421cfa7561dc19418b54bd44b",
+      "bytes": 4098,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\仙侠粒子特效库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/仙侠粒子特效库.md",
+      "source_sha256": "5fb21f02a4464413f9bd758cf433461d14de9fd171ccbacead31a6a73802aa40",
+      "installed_sha256": "5fb21f02a4464413f9bd758cf433461d14de9fd171ccbacead31a6a73802aa40",
+      "bytes": 12960,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\低空穿梭运镜实例库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/低空穿梭运镜实例库.md",
+      "source_sha256": "cd28ab78abdf6cb6d263d996d2acdd589fc90961a2b97fb5d6cd12d21ead01a5",
+      "installed_sha256": "cd28ab78abdf6cb6d263d996d2acdd589fc90961a2b97fb5d6cd12d21ead01a5",
+      "bytes": 7956,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\作者审美锚点-念气无双.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/作者审美锚点-念气无双.md",
+      "source_sha256": "21cb511e765ced72d1731f12a9c151f5ad2834146578f81cad13ee274b9a9f81",
+      "installed_sha256": "21cb511e765ced72d1731f12a9c151f5ad2834146578f81cad13ee274b9a9f81",
+      "bytes": 1987,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\全维度执行图规范库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/全维度执行图规范库.md",
+      "source_sha256": "4b4efbba028cddd3874e36d96fc3d8b5540a8dd2ad3b66361850d0a6c7b731b2",
+      "installed_sha256": "4b4efbba028cddd3874e36d96fc3d8b5540a8dd2ad3b66361850d0a6c7b731b2",
+      "bytes": 6611,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\分镜直出提示词库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/分镜直出提示词库.md",
+      "source_sha256": "1da21040bb8fa2977f95836c74c3e3e4179e473876d3ca658c2fe13a311a5a66",
+      "installed_sha256": "1da21040bb8fa2977f95836c74c3e3e4179e473876d3ca658c2fe13a311a5a66",
+      "bytes": 1500,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\分镜草图绘制法库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/分镜草图绘制法库.md",
+      "source_sha256": "9b88380a4d099e427d075c36c5c46ff440f201845611d0709264e280f42df6b0",
+      "installed_sha256": "9b88380a4d099e427d075c36c5c46ff440f201845611d0709264e280f42df6b0",
+      "bytes": 8328,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\动作专题库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/动作专题库.md",
+      "source_sha256": "1df06c942cb32f7f62d0f1f324493def6f807fa5c157afc26bbb3dbee9feeb0c",
+      "installed_sha256": "1df06c942cb32f7f62d0f1f324493def6f807fa5c157afc26bbb3dbee9feeb0c",
+      "bytes": 37820,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\动作分镜图规范库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/动作分镜图规范库.md",
+      "source_sha256": "b15754089273e63874a4a88fb2c9e000c9802b543d971331e7b1b8aaa7154b99",
+      "installed_sha256": "b15754089273e63874a4a88fb2c9e000c9802b543d971331e7b1b8aaa7154b99",
+      "bytes": 5902,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\参考视频转写流程.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/参考视频转写流程.md",
+      "source_sha256": "c1c18a82d1c4284eda53f90bcaa90db6d3c2b104c6e499a7ae2ceb6679596cd0",
+      "installed_sha256": "c1c18a82d1c4284eda53f90bcaa90db6d3c2b104c6e499a7ae2ceb6679596cd0",
+      "bytes": 1029,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\古风场景三镜头模板库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/古风场景三镜头模板库.md",
+      "source_sha256": "2f942f88d969897bf791fd308db36d4bac74d1d1e4f67fdcbea740dbc8f6bc97",
+      "installed_sha256": "2f942f88d969897bf791fd308db36d4bac74d1d1e4f67fdcbea740dbc8f6bc97",
+      "bytes": 18764,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\古风场景提示词库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/古风场景提示词库.md",
+      "source_sha256": "2e68fef3ebb4cd8daed6b8e274a0ac0b7120569d7064e2f692e47b2f5340043c",
+      "installed_sha256": "2e68fef3ebb4cd8daed6b8e274a0ac0b7120569d7064e2f692e47b2f5340043c",
+      "bytes": 5510,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\古风宫廷九角色设定库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/古风宫廷九角色设定库.md",
+      "source_sha256": "c383a9ace503c11bcd9d9d8cc8680ebb2364a17579ae7d9e6baaa66e435c2b5a",
+      "installed_sha256": "c383a9ace503c11bcd9d9d8cc8680ebb2364a17579ae7d9e6baaa66e435c2b5a",
+      "bytes": 4927,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\古风市井职业设定库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/古风市井职业设定库.md",
+      "source_sha256": "9cd31db53e2e128ffc57cce5a7adb85caa62f8e425718de54738b17f07ae3ca0",
+      "installed_sha256": "9cd31db53e2e128ffc57cce5a7adb85caa62f8e425718de54738b17f07ae3ca0",
+      "bytes": 9309,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\古风男性角色设定库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/古风男性角色设定库.md",
+      "source_sha256": "ad1bc8e63217f2b7b4d17206030229bb6ff5db517ebd4fe77b33b83fb570f311",
+      "installed_sha256": "ad1bc8e63217f2b7b4d17206030229bb6ff5db517ebd4fe77b33b83fb570f311",
+      "bytes": 16258,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\台词口播去AI味库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/台词口播去AI味库.md",
+      "source_sha256": "58fe40d911a6b834bb2fb1257d2abfc42a5518b5bec41317aa688a1eb42455f9",
+      "installed_sha256": "58fe40d911a6b834bb2fb1257d2abfc42a5518b5bec41317aa688a1eb42455f9",
+      "bytes": 2961,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\各系技能特效库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/各系技能特效库.md",
+      "source_sha256": "1a7137e3e2c05bbe205c079895af5a7e127d7dd7dd715f73cf86401b3cbe2867",
+      "installed_sha256": "1a7137e3e2c05bbe205c079895af5a7e127d7dd7dd715f73cf86401b3cbe2867",
+      "bytes": 46098,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\国漫大招库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/国漫大招库.md",
+      "source_sha256": "2292d26e7d6f3c53d3954c558247a29255f22e9cc3fb58c318ffe0625f68e596",
+      "installed_sha256": "2292d26e7d6f3c53d3954c558247a29255f22e9cc3fb58c318ffe0625f68e596",
+      "bytes": 1515,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\国漫大招提示词库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/国漫大招提示词库.md",
+      "source_sha256": "7a2b662ef4b1555ca2d085f2b5c9df11f25e04a9693d8df18812521510faad14",
+      "installed_sha256": "7a2b662ef4b1555ca2d085f2b5c9df11f25e04a9693d8df18812521510faad14",
+      "bytes": 9066,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\场景俯视图规范库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/场景俯视图规范库.md",
+      "source_sha256": "da4666e27994c4ad3c4a0ac3b04c364b95e54675d185e067bc2891382d6eb91a",
+      "installed_sha256": "da4666e27994c4ad3c4a0ac3b04c364b95e54675d185e067bc2891382d6eb91a",
+      "bytes": 7213,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\基础运镜库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/基础运镜库.md",
+      "source_sha256": "894e829c8caf038cd526a2bdcef90de34523077092d7a4b7776278b9a8a6bf6a",
+      "installed_sha256": "894e829c8caf038cd526a2bdcef90de34523077092d7a4b7776278b9a8a6bf6a",
+      "bytes": 7346,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\声音配乐库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/声音配乐库.md",
+      "source_sha256": "138af1fb9b9470431e3d36c0072a1b01298ba533cce499a82021a855c4749b2d",
+      "installed_sha256": "138af1fb9b9470431e3d36c0072a1b01298ba533cce499a82021a855c4749b2d",
+      "bytes": 2156,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\女性造型提示词库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/女性造型提示词库.md",
+      "source_sha256": "afc016b55b3f123148c79bd135befb3c07c19383454707bea11843924ab9ccb2",
+      "installed_sha256": "afc016b55b3f123148c79bd135befb3c07c19383454707bea11843924ab9ccb2",
+      "bytes": 18486,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\导演审片返修库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/导演审片返修库.md",
+      "source_sha256": "5afc31944b6c2686d33574ed31174089fee53242105c72626a491896155f918d",
+      "installed_sha256": "5afc31944b6c2686d33574ed31174089fee53242105c72626a491896155f918d",
+      "bytes": 6449,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\导演视觉倾向速查.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/导演视觉倾向速查.md",
+      "source_sha256": "f90422e4b15ee3d630ec59e784bfa1ad60b0c3dc6b20844a6f898d58fdf80cd8",
+      "installed_sha256": "f90422e4b15ee3d630ec59e784bfa1ad60b0c3dc6b20844a6f898d58fdf80cd8",
+      "bytes": 5085,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\导演风格匹配库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/导演风格匹配库.md",
+      "source_sha256": "b969729a6a872c5a3c0a06e172545546b760ac6bb9de74a65d18a0fa51805693",
+      "installed_sha256": "b969729a6a872c5a3c0a06e172545546b760ac6bb9de74a65d18a0fa51805693",
+      "bytes": 3857,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\布光速查库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/布光速查库.md",
+      "source_sha256": "c2d613b64d59b1f08cab015fb55da62e68381040cd2e375412a544bbbd3696f1",
+      "installed_sha256": "c2d613b64d59b1f08cab015fb55da62e68381040cd2e375412a544bbbd3696f1",
+      "bytes": 3220,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\情绪表达提示词库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/情绪表达提示词库.md",
+      "source_sha256": "d377d9e8d39e7a9dde45abfae63f87ca88ceda0cbb5f253060a10aeb5a1ef170",
+      "installed_sha256": "d377d9e8d39e7a9dde45abfae63f87ca88ceda0cbb5f253060a10aeb5a1ef170",
+      "bytes": 77687,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\打斗镜头招式组合库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/打斗镜头招式组合库.md",
+      "source_sha256": "aacf32b83bf1438e87e4193cf33f743a1da3ddd77a810cc95671f5f70c499d04",
+      "installed_sha256": "aacf32b83bf1438e87e4193cf33f743a1da3ddd77a810cc95671f5f70c499d04",
+      "bytes": 16966,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\拉片参考片拆解路由.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/拉片参考片拆解路由.md",
+      "source_sha256": "fea7a674cdc5f7fb1e6cf7c163446f60e821ebdc749d215bf748ce962041864e",
+      "installed_sha256": "fea7a674cdc5f7fb1e6cf7c163446f60e821ebdc749d215bf748ce962041864e",
+      "bytes": 3266,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\故事分镜图规范库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/故事分镜图规范库.md",
+      "source_sha256": "230948b39df2604f0aa76db955028d6d8dd8479feebb002eeada882d8584b92b",
+      "installed_sha256": "230948b39df2604f0aa76db955028d6d8dd8479feebb002eeada882d8584b92b",
+      "bytes": 6704,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\施法手势全解库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/施法手势全解库.md",
+      "source_sha256": "13ba95e4218c3d8da329d5fdc8d3acdb3b883d0006413f3df91c9f80079fbab4",
+      "installed_sha256": "13ba95e4218c3d8da329d5fdc8d3acdb3b883d0006413f3df91c9f80079fbab4",
+      "bytes": 15056,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\景别速查库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/景别速查库.md",
+      "source_sha256": "df5299606b34ef5ffe52f6d8fd99e3fa14c163ad789f89131f7cb68dcb3c44c4",
+      "installed_sha256": "df5299606b34ef5ffe52f6d8fd99e3fa14c163ad789f89131f7cb68dcb3c44c4",
+      "bytes": 10134,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\本机绘画参考库索引.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/本机绘画参考库索引.md",
+      "source_sha256": "6382cb15607c7b06cb689dc3e0f215bc94a02c918f2f2d74734d196e58f19629",
+      "installed_sha256": "6382cb15607c7b06cb689dc3e0f215bc94a02c918f2f2d74734d196e58f19629",
+      "bytes": 1751,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\权谋运镜实例库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/权谋运镜实例库.md",
+      "source_sha256": "be6a7af3e8b7169686073fac481399a890b96bdec29e40b5b57f988d45d328dd",
+      "installed_sha256": "be6a7af3e8b7169686073fac481399a890b96bdec29e40b5b57f988d45d328dd",
+      "bytes": 11657,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\构图速查库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/构图速查库.md",
+      "source_sha256": "13b30147a0f28499da3ac42052ce4488798ce0f026981ad21e7482c6251d9774",
+      "installed_sha256": "13b30147a0f28499da3ac42052ce4488798ce0f026981ad21e7482c6251d9774",
+      "bytes": 3011,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\漫画打斗视觉冲击手法库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/漫画打斗视觉冲击手法库.md",
+      "source_sha256": "32f6c639a3594c255d49ffca82f23451b06e43f92e78450fef469ff4715983c8",
+      "installed_sha256": "32f6c639a3594c255d49ffca82f23451b06e43f92e78450fef469ff4715983c8",
+      "bytes": 3889,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\现代男性角色设定库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/现代男性角色设定库.md",
+      "source_sha256": "1e16af7c1419f768afd3b69e49c5e5d667ced70611546544e0337495973297fe",
+      "installed_sha256": "1e16af7c1419f768afd3b69e49c5e5d667ced70611546544e0337495973297fe",
+      "bytes": 7754,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\现代都市人物造型设定库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/现代都市人物造型设定库.md",
+      "source_sha256": "f72240e2a952478f57914fe8c0eab1001e3809f5bfbcdbcb0acadfe2c475e4b3",
+      "installed_sha256": "f72240e2a952478f57914fe8c0eab1001e3809f5bfbcdbcb0acadfe2c475e4b3",
+      "bytes": 16068,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\男性发型设定库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/男性发型设定库.md",
+      "source_sha256": "d37d51abcbd7889ba78343fe57f872c4a5d03163f57a549c21790e7321a388c6",
+      "installed_sha256": "d37d51abcbd7889ba78343fe57f872c4a5d03163f57a549c21790e7321a388c6",
+      "bytes": 8669,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\真人感去AI味提示词库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/真人感去AI味提示词库.md",
+      "source_sha256": "8ee48a2b8ff15289c2eadfbff4f3921e8c62f4e0001a713ae598e4d9d9718fc3",
+      "installed_sha256": "8ee48a2b8ff15289c2eadfbff4f3921e8c62f4e0001a713ae598e4d9d9718fc3",
+      "bytes": 7802,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\真实质感提示词库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/真实质感提示词库.md",
+      "source_sha256": "72309217becf7ab069f90f7c1c163362231a425757578f242e78668a5afb91b6",
+      "installed_sha256": "72309217becf7ab069f90f7c1c163362231a425757578f242e78668a5afb91b6",
+      "bytes": 5743,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\节奏控制库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/节奏控制库.md",
+      "source_sha256": "c03900d8564d7d75a34a9f764687ede4281e16232466194c93fe337d2c82a55e",
+      "installed_sha256": "c03900d8564d7d75a34a9f764687ede4281e16232466194c93fe337d2c82a55e",
+      "bytes": 2473,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\虫视运镜实例库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/虫视运镜实例库.md",
+      "source_sha256": "80934f9b98401f1a7ef4bc25f980e31e2fcfb93ac1a9dade17848dbabff7bbc9",
+      "installed_sha256": "80934f9b98401f1a7ef4bc25f980e31e2fcfb93ac1a9dade17848dbabff7bbc9",
+      "bytes": 5482,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\表演微表情库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/表演微表情库.md",
+      "source_sha256": "1e163203c9f0be8e5245c4da0e24ed7e8abc19a5f077d44665e3e0a546db6b9a",
+      "installed_sha256": "1e163203c9f0be8e5245c4da0e24ed7e8abc19a5f077d44665e3e0a546db6b9a",
+      "bytes": 2662,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\调度分镜图规范库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/调度分镜图规范库.md",
+      "source_sha256": "8ec4e0b3a2be6e1f5437cc12742846c9bf41c135c6981357e178b94222df3b57",
+      "installed_sha256": "8ec4e0b3a2be6e1f5437cc12742846c9bf41c135c6981357e178b94222df3b57",
+      "bytes": 6489,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\跨题材场景模板库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/跨题材场景模板库.md",
+      "source_sha256": "348f33535a89f721651eadaa4c494ce74870b06f9093511c2dba60df0e425c17",
+      "installed_sha256": "348f33535a89f721651eadaa4c494ce74870b06f9093511c2dba60df0e425c17",
+      "bytes": 5173,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\转场库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/转场库.md",
+      "source_sha256": "1455d34ebcd26ca1866b39095bcc171c29879e40d06b5ca03d87d3c6c6b1ab1d",
+      "installed_sha256": "1455d34ebcd26ca1866b39095bcc171c29879e40d06b5ca03d87d3c6c6b1ab1d",
+      "bytes": 2473,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\运镜组合与特殊实例库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/运镜组合与特殊实例库.md",
+      "source_sha256": "0458e37e8757b3e4d46172e2211680eecd1b748c384ad90a1591618825a2de50",
+      "installed_sha256": "0458e37e8757b3e4d46172e2211680eecd1b748c384ad90a1591618825a2de50",
+      "bytes": 8093,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\透视与对比方法库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/透视与对比方法库.md",
+      "source_sha256": "2c9ffb525833c4cd4bd9c544e596f60637fe89d3e6aa2c009c191d6474061c6f",
+      "installed_sha256": "2c9ffb525833c4cd4bd9c544e596f60637fe89d3e6aa2c009c191d6474061c6f",
+      "bytes": 4602,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\都市真人短剧场景库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/都市真人短剧场景库.md",
+      "source_sha256": "07d5b560df7f60993704b360cb07823b09637dbc4ac584912a7ef50023d0c7c2",
+      "installed_sha256": "07d5b560df7f60993704b360cb07823b09637dbc4ac584912a7ef50023d0c7c2",
+      "bytes": 8042,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\配音语气提示词库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/配音语气提示词库.md",
+      "source_sha256": "575a8a0191a08eebed50aadc9ad5af279cdd9954f8e060201761b5f6658f87da",
+      "installed_sha256": "575a8a0191a08eebed50aadc9ad5af279cdd9954f8e060201761b5f6658f87da",
+      "bytes": 12777,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\静图微动决策库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/静图微动决策库.md",
+      "source_sha256": "7df8c4e0fad8f08c6f5a06403144b93680a4c43295d4609be0d041c2e6d52608",
+      "installed_sha256": "7df8c4e0fad8f08c6f5a06403144b93680a4c43295d4609be0d041c2e6d52608",
+      "bytes": 4272,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\飞驰打斗skills库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/飞驰打斗skills库.md",
+      "source_sha256": "d906f374eea3b202bba1d47872ee67ea21ded88a32ca8302b677c1a9597725c9",
+      "installed_sha256": "d906f374eea3b202bba1d47872ee67ea21ded88a32ca8302b677c1a9597725c9",
+      "bytes": 2714,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\general\\鹰视运镜实例库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/general/鹰视运镜实例库.md",
+      "source_sha256": "62160f9f800799fe90ec6cd85fc36920a4998f4d2f64d236897d34ae4ea1cba0",
+      "installed_sha256": "62160f9f800799fe90ec6cd85fc36920a4998f4d2f64d236897d34ae4ea1cba0",
+      "bytes": 5996,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\ultimate\\国漫级大招设计语言库.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/ultimate/国漫级大招设计语言库.md",
+      "source_sha256": "37bec037825da878db312be198a519aecacc9ccd22806386b915ccd89e9c497d",
+      "installed_sha256": "37bec037825da878db312be198a519aecacc9ccd22806386b915ccd89e9c497d",
+      "bytes": 6283,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\ultimate\\大招模式连接器.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/ultimate/大招模式连接器.md",
+      "source_sha256": "67257898a691fb07517c0a8b5bbf881e8d46e5b82782825582c048a945e29f05",
+      "installed_sha256": "67257898a691fb07517c0a8b5bbf881e8d46e5b82782825582c048a945e29f05",
+      "bytes": 2169,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\ultimate\\大招模版参考.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/ultimate/大招模版参考.md",
+      "source_sha256": "43c6f8917bb3221dc557be50fcb566ae882039d37401c6089d0ca8e279cdfd07",
+      "installed_sha256": "43c6f8917bb3221dc557be50fcb566ae882039d37401c6089d0ca8e279cdfd07",
+      "bytes": 3249,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\ultimate\\大招系统资料索引.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/ultimate/大招系统资料索引.md",
+      "source_sha256": "0f12d2fbb20117043b10136a27fb2ba54f65ad5251c52edd74d92d333ec616e2",
+      "installed_sha256": "0f12d2fbb20117043b10136a27fb2ba54f65ad5251c52edd74d92d333ec616e2",
+      "bytes": 5942,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\ultimate\\属性招式库_光神圣系大招.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/ultimate/属性招式库_光神圣系大招.md",
+      "source_sha256": "8af8febd648ffcb8eb8dc73173cd9daaa0e2dcf83473cbe6b8685b372f3fc7d6",
+      "installed_sha256": "8af8febd648ffcb8eb8dc73173cd9daaa0e2dcf83473cbe6b8685b372f3fc7d6",
+      "bytes": 10521,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\ultimate\\属性招式库_冰系大招.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/ultimate/属性招式库_冰系大招.md",
+      "source_sha256": "cc7dc660e854e40f6830ee7dad245ce1bebea118909065bfc1411d12ac0dce05",
+      "installed_sha256": "cc7dc660e854e40f6830ee7dad245ce1bebea118909065bfc1411d12ac0dce05",
+      "bytes": 18190,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\ultimate\\属性招式库_剑仙飞剑大招.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/ultimate/属性招式库_剑仙飞剑大招.md",
+      "source_sha256": "338a45ff3e7dad4cfa61579d1c3dbdf15a83588fa86588ac72d82618270ca8f5",
+      "installed_sha256": "338a45ff3e7dad4cfa61579d1c3dbdf15a83588fa86588ac72d82618270ca8f5",
+      "bytes": 17711,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\ultimate\\属性招式库_土岩系大招.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/ultimate/属性招式库_土岩系大招.md",
+      "source_sha256": "c448d8ecc5894f0dddb161eb7bb3b184cce708cfa7701c37db905b4585e9b400",
+      "installed_sha256": "c448d8ecc5894f0dddb161eb7bb3b184cce708cfa7701c37db905b4585e9b400",
+      "bytes": 10204,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\ultimate\\属性招式库_暗魔系大招.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/ultimate/属性招式库_暗魔系大招.md",
+      "source_sha256": "bd934a97798d4287e4b761566e937dbfbf180b287d2350c6bbeaf5844ab48ad9",
+      "installed_sha256": "bd934a97798d4287e4b761566e937dbfbf180b287d2350c6bbeaf5844ab48ad9",
+      "bytes": 10369,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\ultimate\\属性招式库_水系大招.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/ultimate/属性招式库_水系大招.md",
+      "source_sha256": "db1f9ef8bd246ec8916a6537c56de33a551aa198f27e54adde2b5f69db5c2130",
+      "installed_sha256": "db1f9ef8bd246ec8916a6537c56de33a551aa198f27e54adde2b5f69db5c2130",
+      "bytes": 10079,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\ultimate\\属性招式库_火系大招.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/ultimate/属性招式库_火系大招.md",
+      "source_sha256": "0c0ce312c398f7427618011e8975df7aeb4909c57b691fb833dffe52d74cb44f",
+      "installed_sha256": "0c0ce312c398f7427618011e8975df7aeb4909c57b691fb833dffe52d74cb44f",
+      "bytes": 21503,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\ultimate\\属性招式库_雷系大招.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/ultimate/属性招式库_雷系大招.md",
+      "source_sha256": "30f746e9744d951cd6c03babfa2cc0f451be4d56242334aad12bec5570ab49d2",
+      "installed_sha256": "30f746e9744d951cd6c03babfa2cc0f451be4d56242334aad12bec5570ab49d2",
+      "bytes": 18636,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\ultimate\\属性招式库_风系大招.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/ultimate/属性招式库_风系大招.md",
+      "source_sha256": "387c382241faeb79e45fad6cfac98e8b71691de603ca02c533c4465f46fe64fe",
+      "installed_sha256": "387c382241faeb79e45fad6cfac98e8b71691de603ca02c533c4465f46fe64fe",
+      "bytes": 11067,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\library\\ultimate\\火系大招输入模版.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/library/ultimate/火系大招输入模版.md",
+      "source_sha256": "4006b367dd216ebb76db02b94a6e780a74aae96615d77fa1277b8ac13c97a09a",
+      "installed_sha256": "4006b367dd216ebb76db02b94a6e780a74aae96615d77fa1277b8ac13c97a09a",
+      "bytes": 5623,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\modules\\beat_rhythm.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/modules/beat_rhythm.md",
+      "source_sha256": "4e887197ab51e120525c4a5b946d7e78f496d3ee1659430e4578c57ef332f7a6",
+      "installed_sha256": "4e887197ab51e120525c4a5b946d7e78f496d3ee1659430e4578c57ef332f7a6",
+      "bytes": 4035,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\modules\\combat.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/modules/combat.md",
+      "source_sha256": "5407e815eac75491934ea59f9ac5925819547a8ea511e38a3b983cca5cdc1ccf",
+      "installed_sha256": "5407e815eac75491934ea59f9ac5925819547a8ea511e38a3b983cca5cdc1ccf",
+      "bytes": 2057,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\modules\\director-source.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/modules/director-source.md",
+      "source_sha256": "abfcd8ee9310b1c390d803d38d258ca7405b543f77d1872bbabe55c60fa3c743",
+      "installed_sha256": "abfcd8ee9310b1c390d803d38d258ca7405b543f77d1872bbabe55c60fa3c743",
+      "bytes": 4764,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\modules\\director.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/modules/director.md",
+      "source_sha256": "299cc3b0057707b3f3edee11e4fdd226421f9761961416aa02d7b88922425b2c",
+      "installed_sha256": "299cc3b0057707b3f3edee11e4fdd226421f9761961416aa02d7b88922425b2c",
+      "bytes": 1845,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\modules\\master_cases.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/modules/master_cases.md",
+      "source_sha256": "bd0f6219d4f7dd91038446aece0e1750f4cf9118a7d767b26356010d7a021dcb",
+      "installed_sha256": "bd0f6219d4f7dd91038446aece0e1750f4cf9118a7d767b26356010d7a021dcb",
+      "bytes": 4303,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\modules\\reference-art-source.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/modules/reference-art-source.md",
+      "source_sha256": "2d77636c86182b5f8673f9f89fbddfd3199cf19abf96a4414ab742a758fb84d1",
+      "installed_sha256": "2d77636c86182b5f8673f9f89fbddfd3199cf19abf96a4414ab742a758fb84d1",
+      "bytes": 7012,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\modules\\reference-art.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/modules/reference-art.md",
+      "source_sha256": "11ec7d39c7e127dcf0f2299fbbe93781a30a1686adaaf2dfb055e8a3f66ffe1c",
+      "installed_sha256": "11ec7d39c7e127dcf0f2299fbbe93781a30a1686adaaf2dfb055e8a3f66ffe1c",
+      "bytes": 1620,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\modules\\shot_grammar.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/modules/shot_grammar.md",
+      "source_sha256": "d74df5ceac267a13cf5a703f95255273cd70466ca9500c00a8a3fc08f77f3e17",
+      "installed_sha256": "d74df5ceac267a13cf5a703f95255273cd70466ca9500c00a8a3fc08f77f3e17",
+      "bytes": 4741,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\modules\\ultimate.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/modules/ultimate.md",
+      "source_sha256": "0f1d8257f067af0bffeff4e6e6ee013a2e1bd3a219956d2975f9da0d1e68922b",
+      "installed_sha256": "0f1d8257f067af0bffeff4e6e6ee013a2e1bd3a219956d2975f9da0d1e68922b",
+      "bytes": 1643,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\references\\source-audit.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/references/source-audit.md",
+      "source_sha256": "c3e1f0a6da0fe88ef77df295085f3603f12bef34b1757333a63fac158033f55e",
+      "installed_sha256": "c3e1f0a6da0fe88ef77df295085f3603f12bef34b1757333a63fac158033f55e",
+      "bytes": 956,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-expert-bridge",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-expert-bridge\\SKILL.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-expert-bridge/ENTRYPOINT.md",
+      "source_sha256": "ba1146c99f57da842791129f938430198c08ae51dda67fc0f793f002fbe639e6",
+      "installed_sha256": "8fc791259cde3134a6abbcf232880403caecdb6d1aa0d0a4416b9a707d3d3c58",
+      "bytes": 11166,
+      "relative_entrypoint_links_rewritten": 2
+    },
+    {
+      "module": "film-scene-audit",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-scene-audit\\LICENSE",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-scene-audit/LICENSE",
+      "source_sha256": "46b6bcf20c22b99d93339253708d37db53b5eebe4bea4b0ba227deb733b4b0eb",
+      "installed_sha256": "46b6bcf20c22b99d93339253708d37db53b5eebe4bea4b0ba227deb733b4b0eb",
+      "bytes": 1090,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-scene-audit",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-scene-audit\\references\\acting-handoff.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-scene-audit/references/acting-handoff.md",
+      "source_sha256": "a1e47c4ff9521eb801b8b6aba9296638714ba70f181675319e8a287ca5d3e676",
+      "installed_sha256": "a1e47c4ff9521eb801b8b6aba9296638714ba70f181675319e8a287ca5d3e676",
+      "bytes": 1045,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-scene-audit",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-scene-audit\\references\\provenance.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-scene-audit/references/provenance.md",
+      "source_sha256": "3e720a22f1b841b7eb1fe9456ec60cbd2aa6e02fad3adedc23765501933d59c4",
+      "installed_sha256": "3e720a22f1b841b7eb1fe9456ec60cbd2aa6e02fad3adedc23765501933d59c4",
+      "bytes": 1013,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-scene-audit",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-scene-audit\\SKILL.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-scene-audit/ENTRYPOINT.md",
+      "source_sha256": "f20813c463f7b8f8cefe17e135676630c3ba3fbaa15f141562093d6f27a84ccb",
+      "installed_sha256": "f20813c463f7b8f8cefe17e135676630c3ba3fbaa15f141562093d6f27a84ccb",
+      "bytes": 5196,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-staging",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-staging\\LICENSE",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-staging/LICENSE",
+      "source_sha256": "46b6bcf20c22b99d93339253708d37db53b5eebe4bea4b0ba227deb733b4b0eb",
+      "installed_sha256": "46b6bcf20c22b99d93339253708d37db53b5eebe4bea4b0ba227deb733b4b0eb",
+      "bytes": 1090,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-staging",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-staging\\references\\anchor-templates.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-staging/references/anchor-templates.md",
+      "source_sha256": "0fcce12d1bfae989c75b5e8c1d103e5bd80f9f961b3d80c007b2bef8cd2397b4",
+      "installed_sha256": "0fcce12d1bfae989c75b5e8c1d103e5bd80f9f961b3d80c007b2bef8cd2397b4",
+      "bytes": 1555,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-staging",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-staging\\references\\evidence.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-staging/references/evidence.md",
+      "source_sha256": "5586a68dcd84edbb01ebefb4409064c8e5890dd99f37881d672c3d58152a8bed",
+      "installed_sha256": "5586a68dcd84edbb01ebefb4409064c8e5890dd99f37881d672c3d58152a8bed",
+      "bytes": 2633,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-staging",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-staging\\references\\planning.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-staging/references/planning.md",
+      "source_sha256": "9812539a646c483a6173eb03677762d8f0e3e321712888454a67d3d6d8a011d8",
+      "installed_sha256": "9812539a646c483a6173eb03677762d8f0e3e321712888454a67d3d6d8a011d8",
+      "bytes": 1723,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-staging",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-staging\\references\\staging-reference.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-staging/references/staging-reference.md",
+      "source_sha256": "8bda7df9c4623546fe279146a0b8edb6c7cd57bae0f46ec1bd99a5100a124f60",
+      "installed_sha256": "8bda7df9c4623546fe279146a0b8edb6c7cd57bae0f46ec1bd99a5100a124f60",
+      "bytes": 4085,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-staging",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-staging\\SKILL.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-staging/ENTRYPOINT.md",
+      "source_sha256": "60c2538f6d5ff620c2fff21320a7b90bdff19408b610e91879b78d60094a1c65",
+      "installed_sha256": "60c2538f6d5ff620c2fff21320a7b90bdff19408b610e91879b78d60094a1c65",
+      "bytes": 4332,
+      "relative_entrypoint_links_rewritten": 0
+    },
+    {
+      "module": "film-cinedance",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-cinedance\\references\\camera-emotion.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-cinedance/references/camera-emotion.md",
+      "relative_entrypoint_links_rewritten": 0,
+      "source_sha256": "cbf2828869202bc05f60baf6c0c324ef36229a541779bcf18d683d6298e6c934",
+      "installed_sha256": "cbf2828869202bc05f60baf6c0c324ef36229a541779bcf18d683d6298e6c934",
+      "bytes": 4482
+    },
+    {
+      "module": "film-cinedance",
+      "source": "C:\\Users\\codex\\.codex\\skills\\film-cinedance\\references\\global-visual-prefix.md",
+      "destination": "external-libs/C-yangzi-10skill/01-Codex完整工程版/skills/film-cinedance/references/global-visual-prefix.md",
+      "relative_entrypoint_links_rewritten": 0,
+      "source_sha256": "672c950b24ab673e7827982794622e8d447815ef92a234c06e4d1082023a2984",
+      "installed_sha256": "672c950b24ab673e7827982794622e8d447815ef92a234c06e4d1082023a2984",
+      "bytes": 8455
+    }
+  ],
+  "skipped": [
+    {
+      "module": "film-knowledge-bridge",
+      "relative_path": "references/knowledge-base.json"
+    },
+    {
+      "module": "film-expert-bridge",
+      "relative_path": "agents/openai.yaml"
+    },
+    {
+      "module": "film-scene-audit",
+      "relative_path": "agents/openai.yaml"
+    },
+    {
+      "module": "film-staging",
+      "relative_path": "agents/openai.yaml"
+    }
+  ]
+}

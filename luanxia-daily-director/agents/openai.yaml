@@ -1,0 +1,4 @@
+interface:
+  display_name: "乱霞号日常 Skill"
+  short_description: "乱霞号图片与视频提示词，含异种纪元、咒蓝原文及画风镜头适配"
+  default_prompt: "请用 $luanxia-daily-director 按我指定的范围写图片或视频提示词；指定异种纪元或咒蓝原文时，先读完整来源再适配。"

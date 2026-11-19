@@ -1,0 +1,13 @@
+interface:
+  display_name: 打斗skill
+  short_description: 个人定制动作导演，统筹密集攻防、受击与特效，一次生成最长30秒完整提示词
+  default_prompt: 使用 $seedance-combat-prompt（打斗skill），根据我的人物、场景和剧情，一次性交付不超过30秒的完整打斗提示词，时间用整数秒，兼顾密集攻防、身体受击、多景别剪辑、材质特效和声音。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

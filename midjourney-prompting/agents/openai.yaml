@@ -1,0 +1,3 @@
+interface:
+  display_name: "Midjourney Prompting"
+  short_description: "Write and debug Midjourney V8.2 prompts"

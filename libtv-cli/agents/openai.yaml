@@ -1,0 +1,6 @@
+interface:
+  display_name: "LibTV 官方 CLI"
+  short_description: "显式使用 libtv 命令行管理画布、节点、模型和素材"
+  default_prompt: "使用 $libtv-cli 通过官方命令行操作我的 LibTV 画布。"
+policy:
+  allow_implicit_invocation: false

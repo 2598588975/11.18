@@ -1,0 +1,4 @@
+interface:
+  display_name: "洋子 · 走位与空间规划"
+  short_description: "区分俯视规划、正面走位图与首帧，整理人物位置、视线和连续性"
+  default_prompt: "使用 $film-staging 为这场戏整理人物走位，区分规划图、位置参考与成片首帧。"

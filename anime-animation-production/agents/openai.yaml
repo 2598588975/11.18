@@ -1,0 +1,7 @@
+interface:
+  display_name: "二维动漫作画导演"
+  short_description: "设计二维动漫的作画节奏、冲击帧、拖影、赛璐璐风格与角色一致性"
+  default_prompt: "使用 $anime-animation-production（二维动漫作画导演），为我的场景编写具有二维作画感的视频提示词。"
+
+policy:
+  allow_implicit_invocation: true
